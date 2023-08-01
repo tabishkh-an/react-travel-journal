@@ -1,13 +1,76 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.header {
+  background-color: #f55a5a;
+  color: #ffffff;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.header > span {
+  margin-left: 8px;
+}
+
+.card-holder {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.card {
+  max-width: 550px;
+  display: flex;
+}
+
+.card-details {
+  padding: 0 16px;
+  text-align: left;
+  font-size: 11px;
+}
+
+.card-details .location-path {
+  height: 12px;
+}
+
+.card-details > span {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin: 0 8px 0 2px;
+}
+
+.card-details > a {
+  color: #918e9b;
+}
+
+.card-details .place-visited {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.card-details .date {
+  font-weight: bold;
+}
+
+.card-details .description {
+  line-height: 150%;
 }
