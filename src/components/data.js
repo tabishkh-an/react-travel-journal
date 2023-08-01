@@ -3,6 +3,7 @@ const data = [
         id: 1,
         coverImg: "mt-fuji.png",
         location: "Japan",
+        googleMap: "https://goo.gl/maps/Y9waqFQKE4jDM1p49",
         placeVisited: "Mount Fuji",
         date: {
             start: "12 Jan, 2021",
@@ -14,6 +15,7 @@ const data = [
         id: 2,
         coverImg: "opera-house.png",
         location: "Australia",
+        googleMap: "https://goo.gl/maps/GXcr1ZKoLjPsYsvZ7",
         placeVisited: "Sydney Opera House",
         date: {
             start: "27 May, 2021",
@@ -25,6 +27,7 @@ const data = [
         id: 3,
         coverImg: "geirangerfjord.png",
         location: "NORWAY",
+        googleMap: "https://goo.gl/maps/fxJYsoSfu6YtYPgE8",
         placeVisited: "Geirangerfjord",
         date: {
             start: "01 Oct, 2021",
